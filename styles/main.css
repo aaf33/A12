@@ -4,13 +4,37 @@ body {
 	/* text/font - size */
 	font-size: 100%;
 	/* ----STEP- 2 ---- */
-	width: 600px;
+	width: 800px;
 	/* margin: auto centers the page */
 	margin: 0 auto;
 	border: 3px solid #931420;
 	/* ----STEP- 3 ---- */
 	background-color: #fffded;
 }
+
+
+section {
+	width: 525px;
+	float: right;
+
+}
+
+aside {
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+}
+
+aside h3 {
+	font-size:105%;
+	padding-bottom: 25px;
+}
+
+aside img {
+	bottom-padding:1em;
+}
+
+
 
 /* ----STEP- 4 ---- */
 html {
@@ -58,14 +82,7 @@ header h3 {
 
 /* ----STEP- 10 ---- */
 main {
-	padding-right: 30px;
-	padding-left: 30px;
-}
 
-/* ----STEP- 11 ---- */
-main h1 {
-	padding-top: .3em;
-	padding-bottom: .3em;
 }
 
 main h2 {
@@ -103,6 +120,7 @@ li {
 footer p {
 	padding-top: 1em;
 	padding-bottom: 1em;
+	clear: both;
 }
 
 /* ----STEP- 14 ---- */
